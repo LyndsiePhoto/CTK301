@@ -1,0 +1,44 @@
+
+#specialid {
+ color: #ff3366;
+}
+
+h1 {
+color: #FFFFFF;
+  background-color: #3FBF3F
+
+}
+
+
+h2 {
+
+  color:#3FBF3F
+
+  }
+
+  a:link {
+   color: #C14242;
+  }
+
+  a:visited {
+   color: #0A7702;
+  }
+
+  a:active {
+   color: #C14242;
+  }
+
+  a:hover {
+   color: #F6FA19;
+  }
+
+  #divexample {
+    color: #00000FF;
+    background-color: #FFFF00;
+  }
+
+
+.spanstyle {
+  color: #3FBF3F;
+
+}
