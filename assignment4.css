@@ -1,0 +1,44 @@
+.customtext {font-family: sans-serif;
+}
+
+.textcenter {
+  text-align: center;
+}
+
+.textjustify {
+  text-align: justify;
+}
+
+h1 {
+  font-weight: normal;
+  font-style: italic;
+  color: #E8810C;
+}
+
+h2 {
+  font-weight: normal;
+  font-style: italic;
+  color: #E8810C;
+}
+
+h3 {
+  font-weight: normal;
+  font-style: italic;
+  color: #E8810C;
+}
+
+.imgbox {
+  border: 10px solid #020202;
+  padding: 10px;
+
+}
+
+main {
+background-image: url(paintbrush.jpg);
+background-repeat:repeat;
+background-position: center center;
+}
+
+body {
+   font-family: Helvetica, Arial, sans-serif;
+}
