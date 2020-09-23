@@ -9,23 +9,24 @@ body {
 }
 
 main {
-  padding-top: 450px;
+  padding-top: 415px;
 }
 
 .customtext {
   font-size: 27px;
   word-spacing: 5px;
+  text-align: justify;
 }
 
 h1 {
-font-size: 90px;
+font-size: 110px;
  text-align: center;
- line-height: 85px;
+ line-height: 95px;
  margin-top: 2px;
 }
 
 .boots {
-  font-size: 20px;
+  font-size: 22px;
   color: #8D28FE;
   letter-spacing: 2px;
 }
