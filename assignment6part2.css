@@ -2,8 +2,6 @@ body {
   background-image: url(a62.png);
 }
 
-
-
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -12,12 +10,13 @@ nav ul {
 
 nav li {
   padding: 0;
-  margin: 10px;
-  width: 150px;
+  margin: 10px 10px 10px 0;
+  width: 180px;
   color: #ffffff;
   text-decoration: none;
   font-family: Helvetica;
   font-weight: normal;
+  display: inline-block;
 }
 
 nav li a {
@@ -31,35 +30,34 @@ nav li a {
 
 nav li a:hover {
   background-color: #660000;
-
 }
 
-a:link {
- color: red;
- text-decoration: none;
- font-weight: bold;
-}
-
-a:visited {
+main a:link {
   color: red;
   text-decoration: none;
   font-weight: bold;
 }
 
-a:hover {
- color: blue;
- text-decoration: underline;
+main a:visited {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
 }
+
+main a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
 #wrapper {
-  width: 960px;
+  width: 875px;
   border: 2px solid black;
   background-color: #ffffff;
   margin: 1em auto;
   padding: 1em;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-grid-template-rows: 100px auto 75px;
-
+  grid-template-rows: 100px auto 75px;
 }
 
 .customtext {
@@ -75,7 +73,6 @@ grid-template-rows: 100px auto 75px;
   margin: 0 20px 20px 0;
   border: 3px solid black;
   padding: 6px 6px 6px 6px;
-
 }
 
 h1 {
@@ -101,6 +98,7 @@ font-weight: normal;
 nav {
   grid-column: span 3;
   font-weight: normal;
+  font-family: Helvetica;
 }
 
 main {
@@ -115,5 +113,4 @@ footer {
   font-family: Veranda, sans-serif;
   text-align: center;
   color: white;
-  padding: 20px 20px 20px 20px;
 }
