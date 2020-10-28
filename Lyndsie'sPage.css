@@ -1,0 +1,95 @@
+body {
+  background-color: black;
+  font-family:Rockwell, serif;
+  font-size: 20px;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 3px solid white;
+  padding: 24px;
+  background-color: black;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+header {
+  grid-column:span 12;
+  color: white;
+  font-family:Rockwell, serif;
+  font-size: 45px;
+  margin-left: 20px;
+  text-align: center;
+  padding: 0px;
+}
+
+nav {
+  grid-column:span 12;
+}
+
+.imgbox {
+grid-column: span 12;
+border: 5px solid white;
+background-color: black;
+margin-left: 20px;
+padding: 0px;
+margin-bottom: 70px;
+}
+
+footer {
+  grid-column: span 12;
+  font-family: Optima, sans-serif;
+  color: white;
+  font size: 10px;
+  font-style: italic;
+  text-align: right;
+  margin-top: 60px;
+  padding: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0px;
+  margin: 5px;
+}
+
+nav li {
+  display: inline-block;
+  padding: 32px;
+  border: 5px solid white;
+  margin: 10px;
+  background-color: black;
+  text-align: center;
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  width: 140px;
+}
+
+a {
+ color: white;
+ text-decoration: none;
+}
+
+a:link {
+ color: white;
+ text-decoration: none;
+}
+
+a:visited {
+ color: red;
+ text-decoration: none;
+}
+
+a:active {
+ color: white;
+ text-decoration: none;
+}
+
+a:hover {
+ color: hotpink;
+ text-decoration: underline;
+}
