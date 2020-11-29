@@ -17,6 +17,14 @@ body {
   grid-column-gap: 24px;
 }
 
+h2 {
+font-family: 'Montserrat', sans-serif;
+font-size: 35px;
+margin-top: 0;
+letter-spacing: 0.2em;
+text-align: center;
+}
+
 header {
   grid-column:span 12;
   color: white;
@@ -30,7 +38,10 @@ h1 {
   text-shadow: 5px 5px 10px #6b6d70;
   letter-spacing: 0.1em;
   text-decoration: underline;
+  margin-bottom: 20px;
 }
+
+
 
 main {
   font-size: 22px;
@@ -51,10 +62,18 @@ grid-column: span 12;
 margin-left: 20px;
 }
 
-
-.imgsrc {
-
+.fotorama__caption{
+  text-align: center;
+  font-size: 70%;
+  bottom: 1%;
 }
+
+.relative {
+    position:relative;
+    width: 1150px;
+    margin: 0 auto;
+}
+
 
 .imgbox {
 grid-column: span 12;
@@ -169,7 +188,9 @@ body{
   padding: 1em 0;
   float: left;
   width: 50%;
+  height: 200px;
 }
+
 @media screen and (max-width: 640px){
   .container{
     display: block;
@@ -183,6 +204,7 @@ body{
   }
 }
 
+
 .container .title{
   color: #1a1a1a;
   text-align: center;
@@ -193,6 +215,7 @@ body{
   position: relative;
   width: 90%;
   max-width: 400px;
+  height: 200px;
   margin: auto;
   overflow: hidden;
 }
