@@ -35,7 +35,6 @@ header {
 }
 
 h1 {
-  text-shadow: 5px 5px 10px #6b6d70;
   letter-spacing: 0.1em;
   text-decoration: underline;
   margin-bottom: 20px;
@@ -166,7 +165,6 @@ a:active {
 a:hover {
  color: hotpink;
  text-decoration: underline;
- background-color: #6b6d70;
 }
 
 
